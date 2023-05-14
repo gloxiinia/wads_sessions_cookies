@@ -1,0 +1,62 @@
+*{
+    font-family: "Arsenal", "sans-serif";
+  }
+  
+  .joker-gun {
+    max-width:40vw;
+    max-height: auto;
+    left:0;
+    padding: 5em;
+   
+  }
+  
+  .login {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .login__container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      background-color: black;
+      padding: 30px;
+      border-width: 0.5em;
+      border-style: solid;
+      border-color:white;
+    }
+    .login__textBox {
+      padding: 10px;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .login__btn, .login__google {
+      padding: 0.3em 0.5em;
+      font-size:1.5em;
+      font-family: "Arsenal", sans-serif;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+      border: none;
+      color: white;
+      background-color: red;
+    }
+  
+  .login__btn:hover, .login__google:hover {
+    border-color:black;
+    background: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .fa-google{
+    padding-left: 0.5em;
+  }
+    .login div {
+      margin-top: 7px;
+    }
+  
+    .forgot-passwd, .register-link{
+      font-weight: bold;
+    }

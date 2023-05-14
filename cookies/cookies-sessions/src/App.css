@@ -1,0 +1,191 @@
+*{
+  font-family: "Arsenal", "sans-serif";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ /* Placeholder font */
+ .todo-input::-webkit-input-placeholder {
+  font-family: sans-serif;
+}
+
+.todo-input:-ms-input-placeholder {
+  font-family: "Arsenal",sans-serif;
+}
+
+.todo-input:-moz-placeholder {
+  font-family: "Arsenal",sans-serif;
+}
+
+.todo-input::-moz-placeholder {
+  font-family: "Arsenal",sans-serif;
+}
+
+input[type="text"]
+{
+  font-family: "Arsenal", sans-serif;
+}
+
+
+body {
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.05), rgba(105, 6, 8, 0.70)), url("img104.png");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+  font-family: "Arsenal", sans-serif;
+  min-height: 30em;
+  margin-bottom: 5em;
+
+}
+
+
+@media (max-width: 60em) {
+
+  header{
+    font-size: 1.2em;
+  }
+  body{
+    font-size: 0.8em
+  }
+}
+
+@media (max-width: 35em) {
+  header{
+    font-size: 2em;
+  }
+  body{
+    font-size: 0.5em;
+    
+  }
+
+  
+}
+
+
+.joker-gun {
+  max-width:40vw;
+  max-height: auto;
+  left:0;
+  padding: 5em;
+ 
+}
+
+.login {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .login__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+    border-width: 0.5em;
+    border-style: solid;
+    border-color:white;
+  }
+  .login__textBox {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .login__btn, .login__google {
+    padding: 0.3em 0.5em;
+    font-size:1.5em;
+    font-family: "Arsenal", sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    border: none;
+    color: white;
+    background-color: red;
+  }
+
+.login__btn:hover, .login__google:hover {
+  border-color:black;
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+
+.fa-google{
+  padding-left: 0.5em;
+}
+  .login div {
+    margin-top: 7px;
+  }
+
+  .forgot-passwd, .register-link{
+    font-weight: bold;
+  }
+*{
+    font-family: "Arsenal", "sans-serif";
+  }
+  
+  .joker-gun {
+    max-width:40vw;
+    max-height: auto;
+    left:0;
+    padding: 5em;
+   
+  }
+  
+  .login {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .login__container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      background-color: black;
+      padding: 30px;
+      border-width: 0.5em;
+      border-style: solid;
+      border-color:white;
+    }
+    .login__textBox {
+      padding: 10px;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .login__btn, .login__google {
+      padding: 0.3em 0.5em;
+      font-size:1.5em;
+      font-family: "Arsenal", sans-serif;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+      border: none;
+      color: white;
+      background-color: red;
+    }
+  
+  .login__btn:hover, .login__google:hover {
+    border-color:black;
+    background: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .fa-google{
+    padding-left: 0.5em;
+  }
+    .login div {
+      margin-top: 7px;
+    }
+  
+    .forgot-passwd, .register-link{
+      font-weight: bold;
+    }
